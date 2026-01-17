@@ -4,7 +4,6 @@
 
 <template>
   <div>
-    Category 页
   </div>
 </template>
 
