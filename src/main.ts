@@ -3,6 +3,8 @@ import { createPinia } from 'pinia'
 
 import App from './App.vue'
 import router from './router'
+// TODO: 引入全局样式
+import '@/styles/common.scss'
 
 // // 测试test接口
 // import { getTest } from '@/apis/test'
