@@ -1,9 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
-    <el-button type="primary">Primary</el-button>
-  </div>
+  <router-view/>
 </template>
 
 <style scoped></style>

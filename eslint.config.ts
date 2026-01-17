@@ -17,4 +17,12 @@ export default defineConfigWithVueTs(
 
   ...pluginVue.configs['flat/essential'],
   vueTsConfigs.recommended,
+
+  // 自定义规则配置
+  {
+    rules: {
+      // 完全禁用组件命名必须为多单词的规则
+      'vue/multi-word-component-names': 'off'
+    }
+  }
 )
