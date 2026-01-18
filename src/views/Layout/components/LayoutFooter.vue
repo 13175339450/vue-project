@@ -1,3 +1,5 @@
+<script setup lang="ts">
+</script>
 <template>
   <footer class="app_footer">
     <!-- 联系我们 -->
@@ -5,7 +7,11 @@
       <div class="container">
         <dl>
           <dt>客户服务</dt>
-          <dd><i class="iconfont icon-kefu"></i> 在线客服</dd>
+          <!-- 更好的引入图标 -->
+          <dd>
+            <img src="@/assets/icons/weixin.png"/>
+            在线客服
+          </dd>
           <dd><i class="iconfont icon-question"></i> 问题反馈</dd>
         </dl>
         <dl>
@@ -15,7 +21,7 @@
         </dl>
         <dl>
           <dt>下载APP</dt>
-          <dd class="qrcode"><img src="@/assets/images/qrcode.jpg" /></dd>
+          <dd class="qrcode"><img src="@/assets/images/qrcode.jpg"/></dd>
           <dd class="download">
             <span>扫描二维码</span>
             <span>立马下载APP</span>
